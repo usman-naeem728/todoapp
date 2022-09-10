@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <h2 style="margin:5px">TO DO List</h2>
+            <input type="text" class="inp" placeholder="Enter todo" id="todo">
+            <button onclick="add()" class="addBtn">ADD Todo </button>
+            <button onclick="deleteall()" class="del">DELETE ALL</button>
+        </div>
+        <div>
+            <ul id="tolist">
+             
+            </ul>
+        </div>
+    </div>
+
+<!-- <div style="background-color: rgb(207, 207, 207); display:flex ; margin-top: 20px; width: 100%;justify-content:space-between;" id="maindiv">
+
+    <div class="todoinput">
+        <input type="text" >
+    </div>
+    <div class="buttons">
+
+        <button onclick="edit()" ><i class="fa fa-pencil"></i></button>
+        <button onclick="delet()" ><i class="fa fa-trash"></i></button>
+    </div>
+</div> -->
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
